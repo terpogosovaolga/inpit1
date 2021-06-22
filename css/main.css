@@ -1,0 +1,175 @@
+@font-face {
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-family: Roboto Regular;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto Regular;
+
+  --red: #BE2F21;
+  --darkred: #9D251A;
+  --lighter: #E5E5E5;
+  --grey: #797979;
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+.bg-red {
+  background-color: var(--red);
+}
+.bg-lighter {
+  background-color: var(--lighter);
+}
+.text-red {
+  color: var(--red);
+}
+.text-red-hover {
+  transition: .2s;
+}
+.text-red-hover:hover {
+  color: var(--red);
+}
+.text-grey {
+  color: var(--grey);
+}
+
+/* header */
+a.sstu {
+  font-size: 13px;
+  line-height: 16px;
+  max-width: 20vw;
+}
+
+a.nums {
+  font-size: 15px;
+}
+
+a.nums span {
+  line-height: 18px;
+}
+
+i.fab.vk {
+  background-image: url(../imgs/vk.png);
+  background-size: contain;
+}
+
+.ff {
+  align-items: center;
+  justify-content: space-between;
+}
+
+a.obr {
+  font-size: 13px;
+  line-height: 16px;
+  max-width: 15vw;
+}
+
+/* баннер */
+div.banner {
+  height: 258px;
+}
+
+div.banner.b {
+  padding: 20px 0;
+}
+
+span.inpit-text {
+  font-size: 18px;
+  line-height: 20px;
+  max-width: 350px;
+}
+
+.direction {
+  border: 2.5px solid var(--red);
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+  width: 248px;
+}
+
+
+/* меню */
+nav.menu {
+  height: 73px;
+}
+nav.menu span, nav.menu a {
+  font-size: 13px;
+  transition: .2s;
+}
+
+nav.menu a.selected {
+  color: var(--red);
+  font-weight: 700;
+}
+
+
+main {
+  padding: 30px 0;
+}
+
+div.sec h2 {
+  font-size: 29px;
+  margin-bottom: 10px;
+}
+
+div.sec {
+  margin-top: 30px;
+  padding: 10px 0;
+}
+
+
+footer {
+  padding: 60px 0;
+}
+
+.qa h4 {
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+}
+
+footer .bottom {
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 40px;
+}
+
+footer .icons img {
+  margin-left: 10px;
+  height: 20px;
+  width: auto;
+}
+
+input.inp, textarea.inp {
+  background-color: var(--darkred);
+  color: #E34333;
+  padding: 12px 20px;
+  font-size: 13px;
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-top: 17px;
+}
+
+.qa form input[type=submit] {
+  background-color: white;
+  transition: .2s;
+}
+
+.qa form input[type=submit]:hover {
+  background-color: var(--darkred);
+  color: white;
+}
+
+.qa input::-webkit-input-placeholder, .qa textarea::-webkit-input-placeholder {color:#E34333;}
+.qa input::-moz-placeholder, .qa textarea::-moz-placeholder {color:#E34333}
+.qa input:-moz-placeholder, .qa textarea:-moz-placeholder {color:#E34333}
+.qa input:-ms-input-placeholder, .qa textarea:-ms-input-placeholder {color:#E34333}

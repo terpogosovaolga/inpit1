@@ -1,0 +1,169 @@
+.banner-beauty {
+  height: 350px;
+  width: 100%;
+  background-image: url(../imgs/forbanner.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-beauty .fortext {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.banner-beauty .fortext > div {
+  width: 100%;
+  height: 100%;
+  padding: 0 70px;
+}
+
+.abs {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+}
+
+.abs .d-flex  {
+  width: 40%;
+}
+
+span.edu {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52px;
+
+}
+
+span.itcar {
+  font-size: 17px;
+}
+
+@media screen and (max-device-width: 800px) {
+    .banner-beauty .fortext {width: 100%;}
+    .abs .d-flex { width: 100% }
+   }
+
+
+
+div.bacmag {
+  height: 190px;
+  padding: 52px 100px;
+  text-align: center;
+  width: 49%;
+}
+
+
+span.prog {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+span.bacmag {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 38px;
+}
+
+div.bacmag .txt {
+  margin-left: 10px;
+  transition: .2s;
+}
+
+
+div.big {
+  height: 531px;
+  width: 49%;
+}
+@media screen and (max-device-width: 700px) {
+    div.big {width: 100%;}
+    div.small {margin-top: 20px}
+}
+
+
+div.lp {
+    height: 286px;
+}
+
+div.link, div.project {
+  padding: 25px 40px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+div.link span {
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+@media screen and (max-device-width: 990px) {
+    div.prs {margin-top: 50px}
+}
+
+div.project {
+  overflow: hidden;
+  width: 49%;
+  position: relative;
+}
+
+div.project span.txt {
+  height: 151px;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+div.project .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  padding: 25px 40px;
+  font-size: 11px;
+}
+
+div.conf {
+  height: 286px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+div.conf .pic {
+  background-size: cover;
+  background-position: center;
+  height: 50%;
+}
+
+div.conf .text {
+  height: 50%;
+  position: relative;
+  padding: 10px 20px;
+}
+
+div.conf .text h4 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+div.conf .text > div:not(.bottom) {
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+div.conf .text .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  padding: 20px 20px;
+  font-size: 11px;
+}

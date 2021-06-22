@@ -1,0 +1,78 @@
+
+div.news:not(.sec) {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+
+}
+
+div.news.onlynews {
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+div.small {
+  width: 100%;
+  height: 49%;
+}
+div.news .pic {
+  height: 150px;
+  background-image: url(../imgs/news.png);
+  background-size: cover;
+  background-position: center;
+}
+
+div.news .text {
+  position: relative;
+  padding: 30px;
+}
+
+div.news.big .text {
+  height: 70%;
+}
+div.news.small .text {
+  height: 100%;
+}
+div.news .text > div:not(.bottom) {
+  overflow-y: auto;
+}
+div.news .text h4{
+  font-size: 19px;
+  font-weight: 700;
+}
+
+div.news .text p {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+div.news .text .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  padding: 30px;
+  font-size: 11px;
+  background-color: white;
+}
+
+div.news .text .bottom .date {
+  color: #9B9B9B;
+}
+
+/* страница news1 */
+.big_photo {
+  margin: 40px 0;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+h2.news1 {
+  font-weight: 500;
+}
+
+.sec.news1 p {
+  font-size: 14px;
+  line-height: 16px;
+}

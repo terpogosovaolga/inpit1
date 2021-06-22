@@ -1,0 +1,137 @@
+.contacts {
+  padding: 25px 40px;
+  background-image: url(../imgs/telephone.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: var(--red);
+}
+
+.contacts h2 {
+  font-weight: 600;
+}
+
+.contacts .profile {
+  margin-top: 40px;
+}
+
+.contacts .profile p {
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: .2rem;
+}
+
+.contacts .profile .name {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.contacts .profile .job {
+  font-size: 9px;
+  line-height: 11px;
+  font-weight: 400;
+}
+
+.contacts .profile .phone {
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+}
+
+.contacts .profile .email {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 300;
+}
+
+.sec.cafs {
+  padding-bottom: 60px;
+}
+
+.caf {
+  padding: 25px 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  width: 97%;
+  margin: 20px auto;
+  height: 100%;
+  position: relative;
+}
+
+.caf h4, .caf p {
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.caf p {
+  font-weight: 400;
+  height: 100px;
+}
+
+
+.caf .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  padding: 0 40px 25px 40px;
+}
+
+.caf .more {
+  font-weight: 700;
+}
+
+.fullpic {
+  background-position: center;
+  width: 97% auto;
+  background-size: cover;
+  height: 300px;
+
+  position: relative;
+}
+
+.middlepic, .fullpic {
+  margin-top: 20px;
+}
+
+.middlepic {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  width: 97% auto;
+  height: 300px;
+}
+
+.middlepic .pic {
+  background-position: center;
+  background-size: cover;
+  height: 50%;
+}
+
+.middlepic .shadows {
+  padding: 25px 40px;
+  height: 50%;
+}
+
+.fullpic .shadows {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+
+  padding: 25px 40px;
+}
+
+.shadows h4 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.shadows a {
+  font-weight: 300;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
